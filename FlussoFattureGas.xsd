@@ -155,8 +155,8 @@
   </xs:restriction>
 </xs:simpleType>
 
-<!-- riferimento IVA fattura -->
-<xs:simpleType name="RiferimentoIVAType">
+<!-- identificativo riferimento IVA fattura -->
+<xs:simpleType name="IDRiferimentoIVAType">
   <xs:restriction base="xs:string">
     <xs:minLength value="1"/>
     <xs:maxLength value="16"/>
@@ -169,6 +169,7 @@
     <xs:minLength value="1"/>
     <xs:maxLength value="14"/>
   </xs:restriction>
+</xs:simpleType>
 
 <!-- codice REMI Pool -->
 <xs:simpleType name="REMIPoolType">
@@ -176,6 +177,7 @@
     <xs:minLength value="1"/>
     <xs:maxLength value="32"/>
   </xs:restriction>
+</xs:simpleType>
 
 <!-- codice ISTAT -->
 <xs:simpleType name="CodiceISTATType">
@@ -275,6 +277,7 @@
     <xs:minLength value="1"/>
     <xs:maxLength value="15"/>
   </xs:restriction>
+</xs:simpleType>
 
 <!-- Valore numerico, fino a 6 cifre nella parte intera e fino a 6 cifre nella parte decimale -->
 <xs:simpleType name="SeiVSeiType">
@@ -441,25 +444,25 @@
 <xs:complexType name="VoceFatturaType">
   <xs:sequence>
     <xs:element name="CategoriaVoceFatturata" type="CategoriaVoceFatturataType"/>
-    <xs:element name="CodiceRiferimentoIVA" type="RiferimentoIVAType"/>
+    <xs:element name="CodiceRiferimentoIVA" type="IDRiferimentoIVAType"/>
     <xs:element name="Imponibile" type="ImportoType"/>
   </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="RiferimentoIVAType">
   <xs:sequence>
-    <xs:element name="Codice" type="RiferimentoIVAType"/>
+    <xs:element name="Codice" type="IDRiferimentoIVAType"/>
     <xs:element name="Descrizione" type="Testo128Type"/>
     <xs:element name="Aliquota" type="ImportoType"/>
   </xs:sequence>
 </xs:complexType>
 
 
-<xs:complexType name="CategoriaVoceFatturataType">
+<!-- <xs:complexType name="CategoriaVoceFatturataType">
   <xs:sequence>
     <xs:element name="CategoriaVoceFatturata" type="CategoriaVoceFatturataType"/>
   </xs:sequence>
-</xs:complexType>
+</xs:complexType> -->
 
 <xs:complexType name="DettagliPDRType">
   <xs:sequence>
@@ -467,13 +470,13 @@
   </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="ImportiType">
+<xs:complexType name="ImportiPDRType">
   <xs:sequence>
-    <xs:element name="Importo" type="ImportoType" maxOccurs="unbounded"/>
+    <xs:element name="Importo" type="ImportoPDRType" maxOccurs="unbounded"/>
   </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="ImportoType">
+<xs:complexType name="ImportoPDRType">
   <xs:sequence>
     <xs:element name="DataInizio" type="DataType"/>
     <xs:element name="DataFine" type="DataType"/>
@@ -501,7 +504,7 @@
     <xs:element name="ClasseMisuratore" type="ClasseMisuratoreType"/>
     <xs:element name="TipoPDR" type="PDRType"/>
     <xs:element name="AmbitoTariffario" type="AmbitoTariffarioType"/>
-    <xs:element name="Importi" type="ImportiType"/>
+    <xs:element name="Importi" type="ImportiPDRType"/>
   </xs:sequence>
 </xs:complexType>
 
