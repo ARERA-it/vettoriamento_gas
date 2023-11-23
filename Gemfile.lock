@@ -1,0 +1,14 @@
+GEM
+  specs:
+    nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.7.3)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  nokogiri
+
+BUNDLED WITH
+   2.4.21
