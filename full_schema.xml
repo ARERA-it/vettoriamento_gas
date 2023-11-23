@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlussoFattureTrasportoGas 
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema" 
+    xsi:noNamespaceSchemaLocation="FlussoFattureGas.xsd">
+    
+  <TestataFlusso>
+    <TipoFlusso>V</TipoFlusso>
+    <DataCreazione>2023-11-20T17:48:25</DataCreazione>
+    <Versione>1.0</Versione>
+    <NumeroSequenza>1</NumeroSequenza>
+  </TestataFlusso>
+
+  
+
+  <Mittente>
+    <RagioneSociale></RagioneSociale>
+    <PartitaIVA></PartitaIVA>
+    <PartitaIVAGruppo></PartitaIVAGruppo>
+    <CodiceFiscale></CodiceFiscale>
+    <Indirizzo>
+      <Intestazione></Intestazione>
+      <Indirizzo></Indirizzo>
+      <CAP></CAP>
+      <Localita></Localita>
+      <Provincia></Provincia>
+      <Nazione></Nazione>
+    </Indirizzo>
+    <Email></Email>
+    <Telefono></Telefono>
+    <Pagamento>
+      <Condizioni></Condizioni>
+      <Metodo></Metodo>
+      <IBAN></IBAN>
+    </Pagamento>
+  </Mittente>
+
+  <Destinatario>
+    <RagioneSociale></RagioneSociale>
+    <PartitaIVA></PartitaIVA>
+    <PartitaIVAGruppo></PartitaIVAGruppo>
+    <CodiceFiscale></CodiceFiscale>
+    <IndirizzoFatturazione>
+      <Intestazione></Intestazione>
+      <Indirizzo></Indirizzo>
+      <CAP></CAP>
+      <Localita></Localita>
+      <Provincia></Provincia>
+      <Nazione></Nazione>
+    </IndirizzoFatturazione>
+    <IndirizzoSpedizione>
+      <Intestazione></Intestazione>
+      <Indirizzo></Indirizzo>
+      <CAP></CAP>
+      <Localita></Localita>
+      <Provincia></Provincia>
+      <Nazione></Nazione>
+    </IndirizzoSpedizione>
+  </Destinatario>
+
+  <Fattura>
+    <Numero></Numero>
+    <DataEmissione></DataEmissione>
+    <DataScadenza></DataScadenza>
+    <TotaleImponibile></TotaleImponibile>
+    <TotaleIVA></TotaleIVA>
+    <Totale></Totale>
+    <ImportoBollo></ImportoBollo>
+    <Note></Note>
+
+    <VociFattura>
+      <VoceFattura>
+        <Categoria></Categoria>
+        <RiferimentoIVA></RiferimentoIVA>
+        <Imponibile></Imponibile>
+      </VoceFattura>
+    </VociFattura>
+
+    <RiferimentiIVA>
+      <RiferimentoIVA>
+        <Codice></Codice>
+        <Descrizione></Descrizione>
+        <Valore></Valore>
+      </RiferimentoIVA>
+      <RiferimentoIVA>
+        <Codice></Codice>
+        <Descrizione></Descrizione>
+        <Valore></Valore>
+      </RiferimentoIVA>
+    </RiferimentiIVA>
+  </Fattura>
+
+  <DettagliPDR>
+    <DettaglioPDR>
+      <CodicePDR></CodicePDR>
+      <REMIPool></REMIPool>
+      <CodiceISTAT></CodiceISTAT>
+      <Comune></Comune>
+      <CoefficienteC></CoefficienteC>
+      <Correttore></Correttore>
+      <ProgAnnoSolare></ProgAnnoSolare>
+      <ClasseMisuratore></ClasseMisuratore>
+      <Tipo></Tipo>
+      <AmbitoTariffario></AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio></DataInizio>
+          <DataFine></DataFine>
+          <TipoMovimento></TipoMovimento>
+          <ComponenteTariffaria></ComponenteTariffaria>
+          <RegimeCompensazioneBonus></RegimeCompensazioneBonus>
+          <CodiceBonusSII></CodiceBonusSII>
+          <Quota></Quota>
+          <Scaglione></Scaglione>
+          <Quantita></Quantita>
+          <Imponibile></Imponibile>
+        </Importo>
+    </DettaglioPDR>
+  </DettagliPDR>
+
+  <ChiusuraFlusso>
+    <UltimoElementoSequenza>SI</UltimoElementoSequenza>
+  </ChiusuraFlusso>
+</FlussoFattureTrasporto>
