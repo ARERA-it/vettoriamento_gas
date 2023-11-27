@@ -377,14 +377,6 @@
     <xs:enumeration value="MP23"/>
   </xs:restriction>
 </xs:simpleType>
-
-<xs:simpleType name="TCondizioniPagamento"><!-- TODO: obsoleto! -->
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="TP01"/>
-    <xs:enumeration value="TP02"/>
-    <xs:enumeration value="TP03"/>
-  </xs:restriction>
-</xs:simpleType>
 <!-- FINE TIPI SEMPLICI -->
 
 
