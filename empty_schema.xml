@@ -4,13 +4,11 @@
     xsi:noNamespaceSchemaLocation="FlussoFattureGas.xsd">
     
   <TestataFlusso>
-    <TipoFlusso>V</TipoFlusso>
-    <DataCreazione>2023-11-20T17:48:25</DataCreazione>
-    <Versione>1.0</Versione>
-    <NumeroSequenza>1</NumeroSequenza>
+    <TipoFlusso></TipoFlusso>
+    <DataCreazione></DataCreazione>
+    <Versione></Versione>
+    <NumeroSequenza></NumeroSequenza>
   </TestataFlusso>
-
-  
 
   <Mittente>
     <RagioneSociale></RagioneSociale>
@@ -118,6 +116,6 @@
   </DettagliPDR>
 
   <ChiusuraFlusso>
-    <UltimoElementoSequenza>SI</UltimoElementoSequenza>
+    <UltimoElementoSequenza></UltimoElementoSequenza>
   </ChiusuraFlusso>
 </FlussoFattureTrasporto>
