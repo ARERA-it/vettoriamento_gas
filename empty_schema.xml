@@ -26,8 +26,8 @@
     <Email></Email>
     <Telefono></Telefono>
     <Pagamento>
-      <Condizioni></Condizioni>
-      <Metodo></Metodo>
+      <CondizioniPagamento></CondizioniPagamento>
+      <ModalitaPagamento></ModalitaPagamento>
       <IBAN></IBAN>
     </Pagamento>
   </Mittente>
@@ -67,8 +67,8 @@
 
     <VociFattura>
       <VoceFattura>
-        <Categoria></Categoria>
-        <RiferimentoIVA></RiferimentoIVA>
+        <CategoriaVoceFatturata></CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA></CodiceRiferimentoIVA>
         <Imponibile></Imponibile>
       </VoceFattura>
     </VociFattura>
@@ -77,12 +77,12 @@
       <RiferimentoIVA>
         <Codice></Codice>
         <Descrizione></Descrizione>
-        <Valore></Valore>
+        <Aliquota></Aliquota>
       </RiferimentoIVA>
       <RiferimentoIVA>
         <Codice></Codice>
         <Descrizione></Descrizione>
-        <Valore></Valore>
+        <Aliquota></Aliquota>
       </RiferimentoIVA>
     </RiferimentiIVA>
   </Fattura>
@@ -95,9 +95,9 @@
       <Comune></Comune>
       <CoefficienteC></CoefficienteC>
       <Correttore></Correttore>
-      <ProgAnnoSolare></ProgAnnoSolare>
+      <ProgrAnnoSolare></ProgrAnnoSolare>
       <ClasseMisuratore></ClasseMisuratore>
-      <Tipo></Tipo>
+      <TipoPDR></TipoPDR>
       <AmbitoTariffario></AmbitoTariffario>
       <Importi>
         <Importo>

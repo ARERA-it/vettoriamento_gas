@@ -11,7 +11,7 @@
 </xs:simpleType>
 
 <!-- data e ora -->
-<xs:simpleType name="TDataOra">
+<xs:simpleType name="TDataOra"><!-- non viene usato -->
   <xs:restriction base="xs:string">
     <xs:length value="19"/>
     <xs:pattern value="^([0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])$"/>
@@ -496,7 +496,7 @@
 <xs:complexType name="TDettaglioPDR">
   <xs:sequence>
     <xs:element name="CodicePDR" type="TCodicePDR"/>
-    <xs:element name="RemiPool" type="TREMIPool"/>
+    <xs:element name="REMIPool" type="TREMIPool"/>
     <xs:element name="CodiceISTAT" type="TCodiceISTAT"/>
     <xs:element name="Comune" type="TTesto64" minOccurs="0"/>
     <xs:element name="CoefficienteC" type="TCoefficienteC" minOccurs="0"/>
