@@ -265,11 +265,12 @@
     <xs:enumeration value="CAN_COM"/>
     <xs:enumeration value="BONUS_SOC"/>
     <xs:enumeration value="AGGBO"/>
+    <xs:enumeration value="EX_CCI"/>
     <xs:enumeration value="DELTAT1COT"/>
     <xs:enumeration value="COMP_ALPHA"/>
     <xs:enumeration value="COMP_BETA"/>
-    <xs:enumeration value="CONTRI_FINI_FISC"/>
-    <xs:enumeration value="QF_2009"/>
+    <xs:enumeration value="QF_ANTE_2009"/>
+    <xs:enumeration value="QV_ANTE_2009"/>
   </xs:restriction>
 </xs:simpleType>
 
@@ -318,7 +319,7 @@
 </xs:simpleType>
 
 
-<xs:simpleType name="TCategoriaVoceFatturata">
+<xs:simpleType name="TCategoriaVoceFatturata"><!-- ipotesi: viene sostituita da TComponenteTariffaria -->
   <xs:restriction base="xs:string">
     <xs:enumeration value="TAU1_DIS"/>
     <xs:enumeration value="TAU1_MIS"/>
@@ -457,7 +458,7 @@
 
 <xs:complexType name="TVoceFattura">
   <xs:sequence>
-    <xs:element name="CategoriaVoceFatturata" type="TCategoriaVoceFatturata"/>
+    <xs:element name="CategoriaVoceFatturata" type="TComponenteTariffaria"/>
     <xs:element name="CodiceRiferimentoIVA" type="TIDRiferimentoIVA"/>
     <xs:element name="Imponibile" type="TImporto"/>
   </xs:sequence>
