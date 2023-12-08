@@ -1,5 +1,10 @@
 GEM
   specs:
+    concurrent-ruby (1.2.2)
+    faker (3.2.2)
+      i18n (>= 1.8.11, < 2)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
     racc (1.7.3)
@@ -8,6 +13,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  faker
   nokogiri
 
 BUNDLED WITH
