@@ -1,546 +1,510 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.6.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.7.0" elementFormDefault="qualified" attributeFormDefault="unqualified">
 
-<!-- INIZIO TIPI SEMPLICI -->
-<!-- testata flusso -->
-<xs:simpleType name="TFlusso">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="V"/>
-    <xs:enumeration value="R"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- INIZIO TIPI SEMPLICI -->
+  <!-- testata flusso -->
+  <xs:simpleType name="TFlusso">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="V"/>
+      <xs:enumeration value="R"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- data e ora -->
-<xs:simpleType name="TDataOra"><!-- non viene usato -->
-  <xs:restriction base="xs:string">
-    <xs:length value="19"/>
-    <xs:pattern value="^([0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])$"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- data -->
+  <xs:simpleType name="TData">
+    <xs:restriction base="xs:string">
+      <xs:length value="10"/>
+      <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- data -->
-<xs:simpleType name="TData">
-  <xs:restriction base="xs:string">
-    <xs:length value="10"/>
-    <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- testo fino a 64 caratteri -->
+  <xs:simpleType name="TTesto64">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="64"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- testo fino a 64 caratteri -->
-<xs:simpleType name="TTesto64">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="64"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- testo fino a 128 caratteri -->
+  <xs:simpleType name="TTesto128">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="128"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- testo fino a 128 caratteri -->
-<xs:simpleType name="TTesto128">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="128"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- testo fino a 256 caratteri -->
+  <xs:simpleType name="TTesto256">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="256"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- testo fino a 256 caratteri -->
-<xs:simpleType name="TTesto256">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="256"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- versione -->
+  <xs:simpleType name="TVersione">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{1,3}\.\d{1,3}(\.\d{1,3})?"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- versione -->
-<xs:simpleType name="TVersione">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\d{1,3}\.\d{1,3}(\.\d{1,3})?"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- numero sequenza -->
+  <xs:simpleType name="TNumeroSequenza">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{1,4}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- numero sequenza -->
-<xs:simpleType name="TNumeroSequenza">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\d{1,4}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- booleano -->
+  <xs:simpleType name="TBooleano">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SI"/>
+      <xs:enumeration value="NO"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- booleano -->
-<xs:simpleType name="TBooleano">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="SI"/>
-    <xs:enumeration value="NO"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- partita iva -->
+  <xs:simpleType name="TPIVA">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- partita iva -->
-<xs:simpleType name="TPIVA">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="16"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- codice fiscale -->
+  <xs:simpleType name="TCodiceFiscale">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- codice fiscale -->
-<xs:simpleType name="TCodiceFiscale">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="16"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- CAP -->
+  <xs:simpleType name="TCAP">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{5}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- CAP -->
-<xs:simpleType name="TCAP">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\d{5}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- provincia -->
+  <xs:simpleType name="TProvincia">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- provincia -->
-<xs:simpleType name="TProvincia">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[A-Z]{2}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- nazione -->
+  <xs:simpleType name="TNazione">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- nazione -->
-<xs:simpleType name="TNazione">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[A-Z]{2}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- email -->
+  <xs:simpleType name="TEmail">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
+      <xs:maxLength value="256"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- email -->
-<xs:simpleType name="TEmail">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[^@]+@[^@]+\.[^@]+"/>
-    <xs:maxLength value="256"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- telefono -->
+  <xs:simpleType name="TTelefono">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\+?[0-9 \.]{8,32}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- telefono -->
-<xs:simpleType name="TTelefono">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\+?[0-9 \.]{8,32}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- IBAN -->
+  <xs:simpleType name="TIBAN">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="15"/>
+      <xs:maxLength value="34"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- IBAN -->
-<xs:simpleType name="TIBAN">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="15"/>
-    <xs:maxLength value="34"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- note fattura -->
+  <xs:simpleType name="TNoteFattura">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="10000"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- note fattura -->
-<xs:simpleType name="TNoteFattura">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="10000"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- identificativo riferimento IVA fattura -->
+  <xs:simpleType name="TIDRiferimentoIVA">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="16"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- identificativo riferimento IVA fattura -->
-<xs:simpleType name="TIDRiferimentoIVA">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="16"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- codice PDR -->
+  <xs:simpleType name="TCodicePDR">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="14"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- codice PDR -->
-<xs:simpleType name="TCodicePDR">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="14"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- codice REMI Pool -->
+  <xs:simpleType name="TREMIPool">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="32"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- codice REMI Pool -->
-<xs:simpleType name="TREMIPool">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="32"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- codice ISTAT -->
+  <xs:simpleType name="TCodiceISTAT">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{6}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- codice ISTAT -->
-<xs:simpleType name="TCodiceISTAT">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\d{6}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- coefficiente correttivo -->
+  <xs:simpleType name="TCoefficienteC">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{1}[,]\d{1,6}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- coefficiente correttivo -->
-<xs:simpleType name="TCoefficienteC">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\d{1}[,]\d{1,6}"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- progressivo anno solare -->
-<xs:simpleType name="TProgrAnnoSolare">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="\d{1,6},?\d{1,3}"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- classe del misuratore -->
-<xs:simpleType name="TClasseMisuratore">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="G4"/>
-    <xs:enumeration value="G6"/>
-    <xs:enumeration value="G10"/>
-    <xs:enumeration value="G16"/>
-    <xs:enumeration value="G25"/>
-    <xs:enumeration value="G40"/>
-    <xs:enumeration value="G65"/>
-    <xs:enumeration value="G100"/>
-    <xs:enumeration value="G160"/>
-    <xs:enumeration value="G250"/>
-    <xs:enumeration value="G400"/>
-    <xs:enumeration value="G650"/>
-    <xs:enumeration value="G1000"/>
-    <xs:enumeration value="G1600"/>
-    <xs:enumeration value="G2500"/>
-    <xs:enumeration value="G4000"/>
-    <xs:enumeration value="AO_GT_G40"/>
-    <xs:enumeration value="AO_LOE_G40"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- tipo PDR -->
-<xs:simpleType name="TPDR">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="CLI-DOM"/>
-    <xs:enumeration value="CON-DOM"/>
-    <xs:enumeration value="SERV-PUB"/>
-    <xs:enumeration value="USI-DIV"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- ambito tariffario -->
-<xs:simpleType name="TAmbitoTariffario">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="TUTTI"/>
-    <xs:enumeration value="N-OCC"/>
-    <xs:enumeration value="N-ORI"/>
-    <xs:enumeration value="CENTR"/>
-    <xs:enumeration value="S-ORI"/>
-    <xs:enumeration value="S-OCC"/>
-    <xs:enumeration value="MERID"/>
-    <xs:enumeration value="SARD"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- importo PDR, tipo movimento -->
-<xs:simpleType name="TTipoMovimento">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="F"/>
-    <xs:enumeration value="S"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- importo PDR, componente tariffaria -->
-<xs:simpleType name="TComponenteTariffaria">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="TAU1_DIS"/>
-    <xs:enumeration value="TAU1_MIS"/>
-    <xs:enumeration value="TAU1_COT"/>
-    <xs:enumeration value="TAU3_DIS"/>
-    <xs:enumeration value="GS"/>
-    <xs:enumeration value="COMP_TAR_RE"/>
-    <xs:enumeration value="RS"/>
-    <xs:enumeration value="UG1"/>
-    <xs:enumeration value="UG2C_F"/>
-    <xs:enumeration value="UG2C_V"/>
-    <xs:enumeration value="UG2K_F"/>
-    <xs:enumeration value="UG2K_V"/>
-    <xs:enumeration value="UG3_INT"/>
-    <xs:enumeration value="UG3_FT"/>
-    <xs:enumeration value="UG3_UI"/>
-    <xs:enumeration value="ST"/>
-    <xs:enumeration value="VR"/>
-    <xs:enumeration value="CE"/>
-    <xs:enumeration value="CAN_COM"/>
-    <xs:enumeration value="BONUS_SOC"/>
-    <xs:enumeration value="AGGBO"/>
-    <xs:enumeration value="EX_CCI"/>
-    <xs:enumeration value="DELTAT1COT"/>
-    <xs:enumeration value="COMP_ALPHA"/>
-    <xs:enumeration value="COMP_BETA"/>
-    <xs:enumeration value="QF_ANTE_2009"/>
-    <xs:enumeration value="QV_ANTE_2009"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- importo PDR, regime compensazione bonus -->
-<xs:simpleType name="TRegimeCompensazioneBonus">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="G(AC|R|ACR)(1|2)(A\/B|C|D|E|F)(d|i)"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- codice Bonus SII -->
-<xs:simpleType name="TCodiceBonus">
-  <xs:restriction base="xs:string">
-    <xs:minLength value="1"/>
-    <xs:maxLength value="15"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<!-- importo, fino a 6 cifre nella parte intera e fino a 2 cifre nella parte decimale -->
-<xs:simpleType name="TImporto"><!-- alias: TNoveVDue -->
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[+-]?\d{1,9},?\d{0,2}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- progressivo anno solare -->
+  <xs:simpleType name="TProgrAnnoSolare">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{1,6},?\d{1,3}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 
-<!-- Valore numerico, fino a 6 cifre nella parte intera e fino a 6 cifre nella parte decimale -->
-<xs:simpleType name="TSeiVSei">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[+-]?\d{1,6},?\d{0,6}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- importo PDR, regime compensazione bonus -->
+  <xs:simpleType name="TRegimeCompensazioneBonus">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="G(AC|R|ACR)(1|2)(A\/B|C|D|E|F)(d|i)"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- Valore numerico, fino a 9 cifre nella parte intera e fino a 6 cifre nella parte decimale -->
-<xs:simpleType name="TNoveVSei">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[+-]?\d{1,9},?\d{0,6}"/>
-  </xs:restriction>
-</xs:simpleType>
+  <!-- codice Bonus SII -->
+  <xs:simpleType name="TCodiceBonus">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1"/>
+      <xs:maxLength value="15"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<!-- Scaglione -->
-<xs:simpleType name="TScaglione">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="[1-9]"/>
-  </xs:restriction>
-</xs:simpleType>
-
-
-<xs:simpleType name="TCategoriaVoceFatturata"><!-- ipotesi: viene sostituita da TComponenteTariffaria -->
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="TAU1_DIS"/>
-    <xs:enumeration value="TAU1_MIS"/>
-    <xs:enumeration value="TAU1_COT"/>
-    <xs:enumeration value="TAU3_DIS"/>
-    <xs:enumeration value="GS"/>
-    <xs:enumeration value="COMP_TAR_RE"/>
-    <xs:enumeration value="RS"/>
-    <xs:enumeration value="UG1"/>
-    <xs:enumeration value="UG2C_F"/>
-    <xs:enumeration value="UG2C_V"/>
-    <xs:enumeration value="UG2K_F"/>
-    <xs:enumeration value="UG2K_V"/>
-    <xs:enumeration value="UG3_INT"/>
-    <xs:enumeration value="UG3_FT"/>
-    <xs:enumeration value="UG3_UI"/>
-    <xs:enumeration value="ST"/>
-    <xs:enumeration value="VR"/>
-    <xs:enumeration value="CE"/>
-    <xs:enumeration value="CAN_COM"/>
-    <xs:enumeration value="BONUS_SOC"/>
-    <xs:enumeration value="EX_CCI"/>
-    <xs:enumeration value="DELTAT1COT"/>
-    <xs:enumeration value="COMP_ALPHA"/>
-    <xs:enumeration value="COMP_BETA"/>
-    <xs:enumeration value="CONTRI_FINI_FISC"/>
-    <xs:enumeration value="QF_ANTE_2009"/>
-    <xs:enumeration value="QV_ANTE_2009"/>
-  </xs:restriction>
-</xs:simpleType>
-
-<xs:simpleType name="TModalitaPagamento">
-  <xs:restriction base="xs:string">
-    <xs:enumeration value="MP01"/>
-    <xs:enumeration value="MP02"/>
-    <xs:enumeration value="MP03"/>
-    <xs:enumeration value="MP04"/>
-    <xs:enumeration value="MP05"/>
-    <xs:enumeration value="MP06"/>
-    <xs:enumeration value="MP07"/>
-    <xs:enumeration value="MP08"/>
-    <xs:enumeration value="MP09"/>
-    <xs:enumeration value="MP10"/>
-    <xs:enumeration value="MP11"/>
-    <xs:enumeration value="MP12"/>
-    <xs:enumeration value="MP13"/>
-    <xs:enumeration value="MP14"/>
-    <xs:enumeration value="MP15"/>
-    <xs:enumeration value="MP16"/>
-    <xs:enumeration value="MP17"/>
-    <xs:enumeration value="MP18"/>
-    <xs:enumeration value="MP19"/>
-    <xs:enumeration value="MP20"/>
-    <xs:enumeration value="MP21"/>
-    <xs:enumeration value="MP22"/>
-    <xs:enumeration value="MP23"/>
-  </xs:restriction>
-</xs:simpleType>
-<!-- FINE TIPI SEMPLICI -->
+  <!-- importo, fino a 6 cifre nella parte intera e fino a 2 cifre nella parte decimale -->
+  <xs:simpleType name="TImporto"><!-- alias: TNoveVDue -->
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[+-]?\d{1,9},?\d{0,2}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 
-<!-- INIZIO TIPI COMPLESSI -->
-<xs:complexType name="TTestataFlusso">
-  <xs:sequence>
-    <xs:element name="TipoFlusso" type="TFlusso"/>
-    <xs:element name="DataCreazione" type="TData"/>
-    <xs:element name="Versione" type="TVersione"/>
-    <xs:element name="NumeroSequenza" type="TNumeroSequenza"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- Valore numerico, fino a 6 cifre nella parte intera e fino a 6 cifre nella parte decimale, segno opzionale -->
+  <xs:simpleType name="TSeiVSei">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[+-]?\d{1,6},?\d{0,6}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TMittente">
-  <xs:sequence>
-    <xs:element name="RagioneSociale" type="TTesto128"/>
-    <xs:element name="PartitaIVA" type="TPIVA"/>
-    <xs:element name="PartitaIVAGruppo" type="TPIVA" minOccurs="0"/>
-    <xs:element name="CodiceFiscale" type="TCodiceFiscale"/>
-    <xs:element name="Indirizzo" type="TIndirizzo"/>
-    <xs:element name="Email" type="TEmail" minOccurs="0"/>
-    <xs:element name="Telefono" type="TTelefono" minOccurs="0"/>
-    <xs:element name="Pagamento" type="TPagamento"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- Valore numerico, fino a 9 cifre nella parte intera e fino a 6 cifre nella parte decimale, segno opzionale -->
+  <xs:simpleType name="TNoveVSei">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[+-]?\d{1,9},?\d{0,6}"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TIndirizzo">
-  <xs:sequence>
-    <xs:element name="Intestazione" type="TTesto128" minOccurs="0"/>
-    <xs:element name="Indirizzo" type="TTesto128"/>
-    <xs:element name="CAP" type="TCAP"/>
-    <xs:element name="Localita" type="TTesto64"/>
-    <xs:element name="Provincia" type="TProvincia" minOccurs="0"/>
-    <xs:element name="Nazione" type="TNazione"/>
-  </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="TPagamento">
-  <xs:sequence>
-    <xs:element name="CondizioniPagamento" type="TTesto256" minOccurs="0"/>
-    <xs:element name="ModalitaPagamento" type="TModalitaPagamento"/>
-    <xs:element name="IBAN" type="TIBAN"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- Scaglione -->
+  <xs:simpleType name="TScaglione">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[1-9]"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 
-<xs:complexType name="TDestinatario">
-  <xs:sequence>
-    <xs:element name="RagioneSociale" type="TTesto128"/>
-    <xs:element name="PartitaIVA" type="TPIVA"/>
-    <xs:element name="PartitaIVAGruppo" type="TPIVA" minOccurs="0"/>
-    <xs:element name="CodiceFiscale" type="TCodiceFiscale"/>
-    <xs:element name="IndirizzoFatturazione" type="TIndirizzo"/>
-    <xs:element name="IndirizzoSpedizione" type="TIndirizzo" minOccurs="0"/>
-  </xs:sequence>
-</xs:complexType>
+  <xs:simpleType name="TModalitaPagamento">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="MP01"/>
+      <xs:enumeration value="MP02"/>
+      <xs:enumeration value="MP03"/>
+      <xs:enumeration value="MP04"/>
+      <xs:enumeration value="MP05"/>
+      <xs:enumeration value="MP06"/>
+      <xs:enumeration value="MP07"/>
+      <xs:enumeration value="MP08"/>
+      <xs:enumeration value="MP09"/>
+      <xs:enumeration value="MP10"/>
+      <xs:enumeration value="MP11"/>
+      <xs:enumeration value="MP12"/>
+      <xs:enumeration value="MP13"/>
+      <xs:enumeration value="MP14"/>
+      <xs:enumeration value="MP15"/>
+      <xs:enumeration value="MP16"/>
+      <xs:enumeration value="MP17"/>
+      <xs:enumeration value="MP18"/>
+      <xs:enumeration value="MP19"/>
+      <xs:enumeration value="MP20"/>
+      <xs:enumeration value="MP21"/>
+      <xs:enumeration value="MP22"/>
+      <xs:enumeration value="MP23"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TFattura">
-  <xs:sequence>
-    <xs:element name="Numero" type="TTesto64"/>
-    <xs:element name="DataEmissione" type="TData"/>
-    <xs:element name="DataScadenza" type="TData"/>
-    <xs:element name="TotaleImponibile" type="TImporto"/>
-    <xs:element name="TotaleIVA" type="TImporto"/>
-    <xs:element name="Totale" type="TImporto"/>
-    <xs:element name="ImportoBollo" type="TImporto"/>
-    <xs:element name="Note" type="TNoteFattura" minOccurs="0"/>
-    <xs:element name="VociFattura" type="TVociFattura"/>
-    <xs:element name="RiferimentiIVA" type="TRiferimentiIVA"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- classe del misuratore -->
+  <xs:simpleType name="TClasseMisuratore">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="G4"/>
+      <xs:enumeration value="G6"/>
+      <xs:enumeration value="G10"/>
+      <xs:enumeration value="G16"/>
+      <xs:enumeration value="G25"/>
+      <xs:enumeration value="G40"/>
+      <xs:enumeration value="G65"/>
+      <xs:enumeration value="G100"/>
+      <xs:enumeration value="G160"/>
+      <xs:enumeration value="G250"/>
+      <xs:enumeration value="G400"/>
+      <xs:enumeration value="G650"/>
+      <xs:enumeration value="G1000"/>
+      <xs:enumeration value="G1600"/>
+      <xs:enumeration value="G2500"/>
+      <xs:enumeration value="G4000"/>
+      <xs:enumeration value="AO_GT_G40"/>
+      <xs:enumeration value="AO_LOE_G40"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TVociFattura">
-  <xs:sequence>
-    <xs:element name="VoceFattura" type="TVoceFattura" maxOccurs="unbounded"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- tipo PDR -->
+  <xs:simpleType name="TPDR">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CLI-DOM"/>
+      <xs:enumeration value="CON-DOM"/>
+      <xs:enumeration value="SERV-PUB"/>
+      <xs:enumeration value="USI-DIV"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TVoceFattura">
-  <xs:sequence>
-    <xs:element name="CategoriaVoceFatturata" type="TComponenteTariffaria"/>
-    <xs:element name="CodiceRiferimentoIVA" type="TIDRiferimentoIVA"/>
-    <xs:element name="Imponibile" type="TImporto"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- ambito tariffario -->
+  <xs:simpleType name="TAmbitoTariffario">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="TUTTI"/>
+      <xs:enumeration value="N-OCC"/>
+      <xs:enumeration value="N-ORI"/>
+      <xs:enumeration value="CENTR"/>
+      <xs:enumeration value="S-ORI"/>
+      <xs:enumeration value="S-OCC"/>
+      <xs:enumeration value="MERID"/>
+      <xs:enumeration value="SARD"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TRiferimentiIVA">
-  <xs:sequence>
-    <xs:element name="RiferimentoIVA" type="TRiferimentoIVA" maxOccurs="unbounded"/>
-  </xs:sequence>
-</xs:complexType>
+  <!-- importo PDR, tipo movimento -->
+  <xs:simpleType name="TTipoMovimento">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="F"/>
+      <xs:enumeration value="S"/>
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="TRiferimentoIVA">
-  <xs:sequence>
-    <xs:element name="Codice" type="TIDRiferimentoIVA"/>
-    <xs:element name="Descrizione" type="TTesto256"/>
-    <xs:element name="Aliquota" type="TImporto"/>
-  </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="TDettagliPDR">
-  <xs:sequence>
-    <xs:element name="DettaglioPDR" type="TDettaglioPDR" maxOccurs="unbounded"/>
-  </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="TImportiPDR">
-  <xs:sequence>
-    <xs:element name="Importo" type="TImportoPDR" maxOccurs="unbounded"/>
-  </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="TImportoPDR">
-  <xs:sequence>
-    <xs:element name="DataInizio" type="TData"/>
-    <xs:element name="DataFine" type="TData"/>
-    <xs:element name="TipoMovimento" type="TTipoMovimento"/>
-    <xs:element name="ComponenteTariffaria" type="TComponenteTariffaria"/>
-    <xs:element name="RegimeCompensazioneBonus" type="TRegimeCompensazioneBonus" minOccurs="0"/>
-    <xs:element name="CodiceBonusSII" type="TCodiceBonus" minOccurs="0"/>
-    <xs:element name="Quota" type="TSeiVSei"/>
-    <xs:element name="Scaglione" type="TScaglione" minOccurs="0"/>
-    <xs:element name="Quantita" type="TNoveVSei"/>
-    <xs:element name="Imponibile" type="TNoveVSei"/>
-  </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="TDettaglioPDR">
-  <xs:sequence>
-    <xs:element name="CodicePDR" type="TCodicePDR"/>
-    <xs:element name="REMIPool" type="TREMIPool"/>
-    <xs:element name="CodiceISTAT" type="TCodiceISTAT"/>
-    <xs:element name="Comune" type="TTesto64" minOccurs="0"/>
-    <xs:element name="CoefficienteC" type="TCoefficienteC" minOccurs="0"/>
-    <xs:element name="Correttore" type="TBooleano"/>
-    <xs:element name="ProgrAnnoSolare" type="TProgrAnnoSolare"/>
-    <xs:element name="ClasseMisuratore" type="TClasseMisuratore"/>
-    <xs:element name="TipoPDR" type="TPDR"/>
-    <xs:element name="AmbitoTariffario" type="TAmbitoTariffario"/>
-    <xs:element name="Importi" type="TImportiPDR"/>
-  </xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="TChiusuraFlusso">
-  <xs:sequence>
-    <xs:element name="UltimoElementoSequenza" type="TBooleano" default="NO"/>
-  </xs:sequence>
-</xs:complexType>
-
-<!-- FINE TIPI COMPLESSI -->
+  <!-- importo PDR, componente tariffaria -->
+  <xs:simpleType name="TComponenteTariffaria">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="TAU1_DIS"/>
+      <xs:enumeration value="TAU1_MIS"/>
+      <xs:enumeration value="TAU1_COT"/>
+      <xs:enumeration value="TAU3_DIS"/>
+      <xs:enumeration value="GS"/>
+      <xs:enumeration value="COMP_TAR_RE"/>
+      <xs:enumeration value="RS"/>
+      <xs:enumeration value="UG1"/>
+      <xs:enumeration value="UG2C_F"/>
+      <xs:enumeration value="UG2C_V"/>
+      <xs:enumeration value="UG2K_F"/>
+      <xs:enumeration value="UG2K_V"/>
+      <xs:enumeration value="UG3_INT"/>
+      <xs:enumeration value="UG3_FT"/>
+      <xs:enumeration value="UG3_UI"/>
+      <xs:enumeration value="ST"/>
+      <xs:enumeration value="VR"/>
+      <xs:enumeration value="CE"/>
+      <xs:enumeration value="CAN_COM"/>
+      <xs:enumeration value="BONUS_SOC"/>
+      <xs:enumeration value="AGGBO"/>
+      <xs:enumeration value="EX_CCI"/>
+      <xs:enumeration value="DELTAT1COT"/>
+      <xs:enumeration value="COMP_ALPHA"/>
+      <xs:enumeration value="COMP_BETA"/>
+      <xs:enumeration value="QF_ANTE_2009"/>
+      <xs:enumeration value="QV_ANTE_2009"/>
+    </xs:restriction>
+  </xs:simpleType>
 
 
-<!-- INIZIO ELEMENTO PRINCIPALE -->
-<xs:element name="FlussoFattureTrasportoGas">
-  <xs:complexType>
+  <!-- FINE TIPI SEMPLICI -->
+
+
+  <!-- INIZIO TIPI COMPLESSI -->
+  <xs:complexType name="TTestataFlusso">
     <xs:sequence>
-      <xs:element name="TestataFlusso" type="TTestataFlusso"/>
-      <xs:element name="Mittente" type="TMittente"/>
-      <xs:element name="Destinatario" type="TDestinatario"/>
-      <xs:element name="Fattura" type="TFattura"/>
-      <xs:element name="DettagliPDR" type="TDettagliPDR" maxOccurs="unbounded"/>
-      <xs:element name="ChiusuraFlusso" type="TChiusuraFlusso"/>
+      <xs:element name="TipoFlusso" type="TFlusso"/>
+      <xs:element name="DataCreazione" type="TData"/>
+      <xs:element name="Versione" type="TVersione"/>
+      <xs:element name="NumeroSequenza" type="TNumeroSequenza"/>
     </xs:sequence>
   </xs:complexType>
-</xs:element>
-<!-- FINE ELEMENTO PRINCIPALE -->
+
+  <xs:complexType name="TMittente">
+    <xs:sequence>
+      <xs:element name="RagioneSociale" type="TTesto128"/>
+      <xs:element name="PartitaIVA" type="TPIVA"/>
+      <xs:element name="PartitaIVAGruppo" type="TPIVA" minOccurs="0"/>
+      <xs:element name="CodiceFiscale" type="TCodiceFiscale"/>
+      <xs:element name="Indirizzo" type="TIndirizzo"/>
+      <xs:element name="Email" type="TEmail" minOccurs="0"/>
+      <xs:element name="Telefono" type="TTelefono" minOccurs="0"/>
+      <xs:element name="Pagamento" type="TPagamento"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TIndirizzo">
+    <xs:sequence>
+      <xs:element name="Intestazione" type="TTesto128" minOccurs="0"/>
+      <xs:element name="Indirizzo" type="TTesto128"/>
+      <xs:element name="CAP" type="TCAP"/>
+      <xs:element name="Localita" type="TTesto64"/>
+      <xs:element name="Provincia" type="TProvincia"/>
+      <xs:element name="Nazione" type="TNazione"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TPagamento">
+    <xs:sequence>
+      <xs:element name="CondizioniPagamento" type="TTesto256" minOccurs="0"/>
+      <xs:element name="ModalitaPagamento" type="TModalitaPagamento"/>
+      <xs:element name="IBAN" type="TIBAN"/>
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="TDestinatario">
+    <xs:sequence>
+      <xs:element name="RagioneSociale" type="TTesto128"/>
+      <xs:element name="PartitaIVA" type="TPIVA"/>
+      <xs:element name="PartitaIVAGruppo" type="TPIVA" minOccurs="0"/>
+      <xs:element name="CodiceFiscale" type="TCodiceFiscale"/>
+      <xs:element name="IndirizzoFatturazione" type="TIndirizzo"/>
+      <xs:element name="IndirizzoSpedizione" type="TIndirizzo" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TFattura">
+    <xs:sequence>
+      <xs:element name="Numero" type="TTesto64"/>
+      <xs:element name="DataEmissione" type="TData"/>
+      <xs:element name="DataScadenza" type="TData"/>
+      <xs:element name="TotaleImponibile" type="TImporto"/>
+      <xs:element name="TotaleIVA" type="TImporto"/>
+      <xs:element name="Totale" type="TImporto"/>
+      <xs:element name="ImportoBollo" type="TImporto"/>
+      <xs:element name="Note" type="TNoteFattura" minOccurs="0"/>
+      <xs:element name="VociFattura" type="TVociFattura"/>
+      <xs:element name="RiferimentiIVA" type="TRiferimentiIVA"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TVociFattura">
+    <xs:sequence>
+      <xs:element name="VoceFattura" type="TVoceFattura" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TVoceFattura">
+    <xs:sequence>
+      <xs:element name="CategoriaVoceFatturata" type="TComponenteTariffaria"/>
+      <xs:element name="CodiceRiferimentoIVA" type="TIDRiferimentoIVA"/>
+      <xs:element name="Imponibile" type="TImporto"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TRiferimentiIVA">
+    <xs:sequence>
+      <xs:element name="RiferimentoIVA" type="TRiferimentoIVA" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TRiferimentoIVA">
+    <xs:sequence>
+      <xs:element name="Codice" type="TIDRiferimentoIVA"/>
+      <xs:element name="Descrizione" type="TTesto256"/>
+      <xs:element name="Aliquota" type="TImporto"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TDettagliPDR">
+    <xs:sequence>
+      <xs:element name="DettaglioPDR" type="TDettaglioPDR" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TImportiPDR">
+    <xs:sequence>
+      <xs:element name="Importo" type="TImportoPDR" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TImportoPDR">
+    <xs:sequence>
+      <xs:element name="DataInizio" type="TData"/>
+      <xs:element name="DataFine" type="TData"/>
+      <xs:element name="TipoMovimento" type="TTipoMovimento"/>
+      <xs:element name="ComponenteTariffaria" type="TComponenteTariffaria"/>
+      <xs:element name="RegimeCompensazioneBonus" type="TRegimeCompensazioneBonus" minOccurs="0"/>
+      <xs:element name="CodiceBonusSII" type="TCodiceBonus" minOccurs="0"/>
+      <xs:element name="Quota" type="TSeiVSei"/>
+      <xs:element name="Scaglione" type="TScaglione" minOccurs="0"/>
+      <xs:element name="Quantita" type="TNoveVSei"/>
+      <xs:element name="Imponibile" type="TNoveVSei"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TDettaglioPDR">
+    <xs:sequence>
+      <xs:element name="CodicePDR" type="TCodicePDR"/>
+      <xs:element name="REMIPool" type="TREMIPool"/>
+      <xs:element name="CodiceISTAT" type="TCodiceISTAT"/>
+      <xs:element name="Comune" type="TTesto64" minOccurs="0"/>
+      <xs:element name="CoefficienteC" type="TCoefficienteC" minOccurs="0"/>
+      <xs:element name="Correttore" type="TBooleano"/>
+      <xs:element name="ProgrAnnoSolare" type="TProgrAnnoSolare"/>
+      <xs:element name="ClasseMisuratore" type="TClasseMisuratore"/>
+      <xs:element name="TipoPDR" type="TPDR"/>
+      <xs:element name="AmbitoTariffario" type="TAmbitoTariffario"/>
+      <xs:element name="Importi" type="TImportiPDR"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TChiusuraFlusso">
+    <xs:sequence>
+      <xs:element name="UltimoElementoSequenza" type="TBooleano" default="NO"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- FINE TIPI COMPLESSI -->
+
+
+  <!-- INIZIO ELEMENTO PRINCIPALE -->
+  <xs:element name="FlussoFattureTrasportoGas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TestataFlusso" type="TTestataFlusso"/>
+        <xs:element name="Mittente" type="TMittente"/>
+        <xs:element name="Destinatario" type="TDestinatario"/>
+        <xs:element name="Fattura" type="TFattura"/>
+        <xs:element name="DettagliPDR" type="TDettagliPDR"/>
+        <xs:element name="ChiusuraFlusso" type="TChiusuraFlusso"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!-- FINE ELEMENTO PRINCIPALE -->
+</xs:schema>

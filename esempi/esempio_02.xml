@@ -3,528 +3,313 @@
   <TestataFlusso>
     <TipoFlusso>V</TipoFlusso>
     <DataCreazione>2023-08-02</DataCreazione>
-    <Versione>6.0.9</Versione>
+    <Versione>4.41</Versione>
     <NumeroSequenza>1</NumeroSequenza>
   </TestataFlusso>
   <Mittente>
-    <RagioneSociale>Rowe, Schmeler and Stoltenberg</RagioneSociale>
-    <PartitaIVA>1133952000</PartitaIVA>
-    <PartitaIVAGruppo>3052182270</PartitaIVAGruppo>
-    <CodiceFiscale>B000662SOY</CodiceFiscale>
+    <RagioneSociale>Flatley, Glover and Collins</RagioneSociale>
+    <PartitaIVA>5168874583</PartitaIVA>
+    <PartitaIVAGruppo>5396799297</PartitaIVAGruppo>
+    <CodiceFiscale>B0000DGXE8</CodiceFiscale>
     <Indirizzo>
-      <Intestazione>Rowe, Schmeler and Stoltenberg</Intestazione>
-      <Indirizzo>Strada Basile 386</Indirizzo>
-      <CAP>89500</CAP>
-      <Localita>Sesto Lazzaro sardo</Localita>
-      <Provincia>BS</Provincia>
-      <Nazione>DZA</Nazione>
+      <Intestazione>Flatley, Glover and Collins</Intestazione>
+      <Indirizzo>Borgo Gregorio 318</Indirizzo>
+      <CAP>20291</CAP>
+      <Localita>Quarto Penelope veneto</Localita>
+      <Provincia>SR</Provincia>
+      <Nazione>LB</Nazione>
     </Indirizzo>
-    <Email>errol_ullrich@bernhard.example</Email>
-    <Telefono>311 499 625</Telefono>
+    <Email>delphia@dicki.example</Email>
+    <Telefono>14 6418648</Telefono>
     <Pagamento>
       <CondizioniPagamento>RIMESSA DIRETTA 30 GG FINE MESE</CondizioniPagamento>
-      <ModalitaPagamento>MP13</ModalitaPagamento>
-      <IBAN>IT69F8553200773RDP841H49K2I</IBAN>
+      <ModalitaPagamento>MP21</ModalitaPagamento>
+      <IBAN>IT36W48024811466T813Y3LN3F9</IBAN>
     </Pagamento>
   </Mittente>
   <Destinatario>
-    <RagioneSociale>Bergnaum LLC</RagioneSociale>
-    <PartitaIVA>1550728982</PartitaIVA>
-    <PartitaIVAGruppo>9923470711</PartitaIVAGruppo>
-    <CodiceFiscale>B000I6RITM</CodiceFiscale>
+    <RagioneSociale>Smith-Heller</RagioneSociale>
+    <PartitaIVA>5646513092</PartitaIVA>
+    <PartitaIVAGruppo>7572169709</PartitaIVAGruppo>
+    <CodiceFiscale>B0007WHCXY</CodiceFiscale>
     <IndirizzoFatturazione>
-      <Intestazione>Bergnaum LLC</Intestazione>
-      <Indirizzo>Contrada Fontana 233, Piano 2</Indirizzo>
-      <CAP>64519</CAP>
-      <Localita>Sesto Enrico laziale</Localita>
-      <Provincia>BG</Provincia>
-      <Nazione>BIH</Nazione>
+      <Intestazione>Smith-Heller</Intestazione>
+      <Indirizzo>Borgo Assia 290, Piano 7</Indirizzo>
+      <CAP>74833</CAP>
+      <Localita>Valentini calabro</Localita>
+      <Provincia>MS</Provincia>
+      <Nazione>IN</Nazione>
     </IndirizzoFatturazione>
     <IndirizzoSpedizione>
-      <Intestazione>Bergnaum LLC</Intestazione>
-      <Indirizzo>Contrada Nunzia 8, Appartamento 33</Indirizzo>
-      <CAP>86010</CAP>
-      <Localita>De Santis salentino</Localita>
-      <Provincia>VS</Provincia>
-      <Nazione>GBR</Nazione>
+      <Intestazione>Smith-Heller</Intestazione>
+      <Indirizzo>Rotonda Cecco 41</Indirizzo>
+      <CAP>82192</CAP>
+      <Localita>Sesto Tommaso</Localita>
+      <Provincia>RO</Provincia>
+      <Nazione>PL</Nazione>
     </IndirizzoSpedizione>
   </Destinatario>
   <Fattura>
-    <Numero>402814</Numero>
+    <Numero>410115</Numero>
     <DataEmissione>2023-08-02</DataEmissione>
     <DataScadenza>2023-08-30</DataScadenza>
-    <TotaleImponibile>2213,41</TotaleImponibile>
-    <TotaleIVA>411,49</TotaleIVA>
-    <Totale>2624,9</Totale>
+    <TotaleImponibile>5049,48</TotaleImponibile>
+    <TotaleIVA>871,22</TotaleIVA>
+    <Totale>5920,7</Totale>
     <ImportoBollo>2,00</ImportoBollo>
-    <Note>Voluptas reprehenderit consequatur. Qui ducimus rerum. Magnam voluptatem ipsa.</Note>
+    <Note>Maxime voluptatem id. Et pariatur voluptatem. At sequi quia.</Note>
     <VociFattura>
       <VoceFattura>
-        <CategoriaVoceFatturata>CE</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>QYJH</CodiceRiferimentoIVA>
-        <Imponibile>258,23</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
         <CategoriaVoceFatturata>QV_ANTE_2009</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>YOTW</CodiceRiferimentoIVA>
-        <Imponibile>329,55</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>QF_ANTE_2009</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>130,54</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>UG2K_F</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BQLV</CodiceRiferimentoIVA>
-        <Imponibile>0,08</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>UG3_INT</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>YOTW</CodiceRiferimentoIVA>
-        <Imponibile>42,64</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>TAU1_COT</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BQLV</CodiceRiferimentoIVA>
-        <Imponibile>225,45</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>CAN_COM</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BIZF</CodiceRiferimentoIVA>
-        <Imponibile>31,48</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>UG2C_F</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BIZF</CodiceRiferimentoIVA>
-        <Imponibile>12,5</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>BONUS_SOC</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>QYJH</CodiceRiferimentoIVA>
-        <Imponibile>89,78</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>UG1</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>34,14</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>EX_CCI</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>QYJH</CodiceRiferimentoIVA>
-        <Imponibile>58,66</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>COMP_BETA</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>YOTW</CodiceRiferimentoIVA>
-        <Imponibile>146,39</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>TAU1_MIS</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>59,29</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>UG3_UI</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>53,0</Imponibile>
-      </VoceFattura>
-      <VoceFattura>
-        <CategoriaVoceFatturata>TAU3_DIS</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>86,96</Imponibile>
+        <CodiceRiferimentoIVA>DEBE</CodiceRiferimentoIVA>
+        <Imponibile>130,97</Imponibile>
       </VoceFattura>
       <VoceFattura>
         <CategoriaVoceFatturata>DELTAT1COT</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>QYJH</CodiceRiferimentoIVA>
-        <Imponibile>122,51</Imponibile>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>191,42</Imponibile>
       </VoceFattura>
       <VoceFattura>
-        <CategoriaVoceFatturata>ST</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>95,53</Imponibile>
+        <CategoriaVoceFatturata>UG2K_F</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>66,43</Imponibile>
       </VoceFattura>
       <VoceFattura>
-        <CategoriaVoceFatturata>UG3_FT</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BIZF</CodiceRiferimentoIVA>
-        <Imponibile>92,13</Imponibile>
+        <CategoriaVoceFatturata>TAU1_COT</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>127,33</Imponibile>
       </VoceFattura>
       <VoceFattura>
-        <CategoriaVoceFatturata>COMP_ALPHA</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>QYJH</CodiceRiferimentoIVA>
-        <Imponibile>196,86</Imponibile>
+        <CategoriaVoceFatturata>UG2C_V</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>554,85</Imponibile>
       </VoceFattura>
       <VoceFattura>
-        <CategoriaVoceFatturata>VR</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>YOTW</CodiceRiferimentoIVA>
-        <Imponibile>79,25</Imponibile>
+        <CategoriaVoceFatturata>UG1</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>195,87</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>BONUS_SOC</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>190,04</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>AGGBO</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>XQGH</CodiceRiferimentoIVA>
+        <Imponibile>245,18</Imponibile>
       </VoceFattura>
       <VoceFattura>
         <CategoriaVoceFatturata>GS</CategoriaVoceFatturata>
-        <CodiceRiferimentoIVA>BMMA</CodiceRiferimentoIVA>
-        <Imponibile>68,45</Imponibile>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>235,84</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>UG2C_F</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>130,88</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>UG3_FT</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>DEBE</CodiceRiferimentoIVA>
+        <Imponibile>237,75</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>UG2K_V</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>308,18</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>COMP_ALPHA</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>XQGH</CodiceRiferimentoIVA>
+        <Imponibile>157,2</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>EX_CCI</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>XQGH</CodiceRiferimentoIVA>
+        <Imponibile>105,86</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>UG3_INT</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>196,76</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>ST</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>165,06</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>TAU1_DIS</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>XQGH</CodiceRiferimentoIVA>
+        <Imponibile>272,27</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>RS</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>DEBE</CodiceRiferimentoIVA>
+        <Imponibile>238,12</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>COMP_BETA</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>240,86</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>CAN_COM</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>73,99</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>TAU3_DIS</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>201,56</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>CE</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>XQGH</CodiceRiferimentoIVA>
+        <Imponibile>276,81</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>COMP_TAR_RE</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>27,89</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>UG3_UI</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>203,02</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>QF_ANTE_2009</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>87,59</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>VR</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>RGPO</CodiceRiferimentoIVA>
+        <Imponibile>138,46</Imponibile>
+      </VoceFattura>
+      <VoceFattura>
+        <CategoriaVoceFatturata>TAU1_MIS</CategoriaVoceFatturata>
+        <CodiceRiferimentoIVA>UCOA</CodiceRiferimentoIVA>
+        <Imponibile>49,32</Imponibile>
       </VoceFattura>
     </VociFattura>
     <RiferimentiIVA>
       <RiferimentoIVA>
-        <Codice>BQLV</Codice>
-        <Descrizione>Qui magnam ea consequatur.</Descrizione>
-        <Aliquota>20,0</Aliquota>
-      </RiferimentoIVA>
-      <RiferimentoIVA>
-        <Codice>BIZF</Codice>
-        <Descrizione>Non quia quia voluptatem.</Descrizione>
+        <Codice>UCOA</Codice>
+        <Descrizione>Nihil et quisquam quidem.</Descrizione>
         <Aliquota>22,0</Aliquota>
       </RiferimentoIVA>
       <RiferimentoIVA>
-        <Codice>YOTW</Codice>
-        <Descrizione>Rem tempora debitis sint.</Descrizione>
-        <Aliquota>5,0</Aliquota>
+        <Codice>DEBE</Codice>
+        <Descrizione>Fuga ipsa quibusdam in.</Descrizione>
+        <Aliquota>10,0</Aliquota>
       </RiferimentoIVA>
       <RiferimentoIVA>
-        <Codice>QYJH</Codice>
-        <Descrizione>Aperiam ratione quia maiores.</Descrizione>
+        <Codice>XQGH</Codice>
+        <Descrizione>Aliquid molestias autem accusamus.</Descrizione>
         <Aliquota>22,0</Aliquota>
       </RiferimentoIVA>
       <RiferimentoIVA>
-        <Codice>BMMA</Codice>
-        <Descrizione>Occaecati rem cupiditate quia.</Descrizione>
+        <Codice>RGPO</Codice>
+        <Descrizione>Itaque dolorum mollitia consequuntur.</Descrizione>
         <Aliquota>22,0</Aliquota>
       </RiferimentoIVA>
     </RiferimentiIVA>
   </Fattura>
   <DettagliPDR>
     <DettaglioPDR>
-      <CodicePDR>6551024504</CodicePDR>
-      <REMIPool>6951058384</REMIPool>
-      <CodiceISTAT>389782</CodiceISTAT>
-      <Comune>Monti laziale</Comune>
-      <CoefficienteC>0,964548</CoefficienteC>
-      <Correttore>SI</Correttore>
-      <ProgrAnnoSolare>913310,992</ProgrAnnoSolare>
-      <ClasseMisuratore>G16</ClasseMisuratore>
-      <TipoPDR>SERV-PUB</TipoPDR>
-      <AmbitoTariffario>S-OCC</AmbitoTariffario>
+      <CodicePDR>2358091258</CodicePDR>
+      <REMIPool>8864808793</REMIPool>
+      <CodiceISTAT>498757</CodiceISTAT>
+      <Comune>San Rufo lido</Comune>
+      <CoefficienteC>1,040807</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>225734,707</ProgrAnnoSolare>
+      <ClasseMisuratore>G4000</ClasseMisuratore>
+      <TipoPDR>USI-DIV</TipoPDR>
+      <AmbitoTariffario>MERID</AmbitoTariffario>
       <Importi>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>CE</ComponenteTariffaria>
-          <Quota>0,006616</Quota>
-          <Quantita>628292239,830778</Quantita>
-          <Imponibile>89,87</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
+          <TipoMovimento>S</TipoMovimento>
           <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,002199</Quota>
-          <Quantita>884126317,464307</Quantita>
-          <Imponibile>96,92</Imponibile>
+          <Quota>0,003380</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>268002069,465001</Quantita>
+          <Imponibile>49,88</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>QF_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,009476</Quota>
-          <Scaglione>8</Scaglione>
-          <Quantita>668309597,491439</Quantita>
-          <Imponibile>81,05</Imponibile>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>DELTAT1COT</ComponenteTariffaria>
+          <Quota>0,006189</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>371555288,303267</Quantita>
+          <Imponibile>75,29</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>F</TipoMovimento>
           <ComponenteTariffaria>UG2K_F</ComponenteTariffaria>
-          <Quota>0,000359</Quota>
-          <Scaglione>3</Scaglione>
-          <Quantita>299259492,436123</Quantita>
-          <Imponibile>0,08</Imponibile>
+          <Quota>0,001774</Quota>
+          <Quantita>212223130,835532</Quantita>
+          <Imponibile>8,51</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>UG3_INT</ComponenteTariffaria>
-          <Quota>0,005011</Quota>
-          <Quantita>610404258,072585</Quantita>
-          <Imponibile>42,64</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
+          <TipoMovimento>S</TipoMovimento>
           <ComponenteTariffaria>TAU1_COT</ComponenteTariffaria>
-          <Quota>0,008818</Quota>
-          <Scaglione>8</Scaglione>
-          <Quantita>759608116,844341</Quantita>
-          <Imponibile>41,13</Imponibile>
+          <Quota>0,005533</Quota>
+          <Scaglione>9</Scaglione>
+          <Quantita>424682860,282303</Quantita>
+          <Imponibile>59,21</Imponibile>
         </Importo>
-      </Importi>
-    </DettaglioPDR>
-    <DettaglioPDR>
-      <CodicePDR>3504937921</CodicePDR>
-      <REMIPool>3903053753</REMIPool>
-      <CodiceISTAT>464011</CodiceISTAT>
-      <Comune>Enrica sardo</Comune>
-      <CoefficienteC>1,008768</CoefficienteC>
-      <Correttore>NO</Correttore>
-      <ProgrAnnoSolare>326862,348</ProgrAnnoSolare>
-      <ClasseMisuratore>G25</ClasseMisuratore>
-      <TipoPDR>CLI-DOM</TipoPDR>
-      <AmbitoTariffario>TUTTI</AmbitoTariffario>
-      <Importi>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>CAN_COM</ComponenteTariffaria>
-          <Quota>0,009803</Quota>
-          <Scaglione>9</Scaglione>
-          <Quantita>245354268,451518</Quantita>
-          <Imponibile>2,57</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>UG2C_F</ComponenteTariffaria>
-          <Quota>0,008513</Quota>
-          <Quantita>710664719,851454</Quantita>
-          <Imponibile>12,5</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>BONUS_SOC</ComponenteTariffaria>
-          <RegimeCompensazioneBonus>GACR2Ci</RegimeCompensazioneBonus>
-          <CodiceBonusSII>7214134669</CodiceBonusSII>
-          <Quota>0,009278</Quota>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,007431</Quota>
           <Scaglione>7</Scaglione>
-          <Quantita>943255269,917935</Quantita>
-          <Imponibile>27,88</Imponibile>
+          <Quantita>449805906,663783</Quantita>
+          <Imponibile>59,67</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>F</TipoMovimento>
           <ComponenteTariffaria>UG1</ComponenteTariffaria>
-          <Quota>0,004780</Quota>
-          <Scaglione>2</Scaglione>
-          <Quantita>557980263,649182</Quantita>
-          <Imponibile>14,52</Imponibile>
+          <Quota>0,000424</Quota>
+          <Quantita>813948150,412158</Quantita>
+          <Imponibile>7,52</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>TAU1_COT</ComponenteTariffaria>
-          <Quota>0,000725</Quota>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,006702</Quota>
           <Scaglione>6</Scaglione>
-          <Quantita>754881833,471236</Quantita>
-          <Imponibile>33,14</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,005214</Quota>
-          <Scaglione>2</Scaglione>
-          <Quantita>735268939,778088</Quantita>
-          <Imponibile>12,8</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>EX_CCI</ComponenteTariffaria>
-          <Quota>0,003676</Quota>
-          <Scaglione>1</Scaglione>
-          <Quantita>596541296,445607</Quantita>
-          <Imponibile>58,66</Imponibile>
+          <Quantita>697736048,871146</Quantita>
+          <Imponibile>0,26</Imponibile>
         </Importo>
       </Importi>
     </DettaglioPDR>
     <DettaglioPDR>
-      <CodicePDR>7887392429</CodicePDR>
-      <REMIPool>8604130127</REMIPool>
-      <CodiceISTAT>397357</CodiceISTAT>
-      <Comune>Ubaldo ligure</Comune>
-      <CoefficienteC>0,950585</CoefficienteC>
-      <Correttore>NO</Correttore>
-      <ProgrAnnoSolare>793429,189</ProgrAnnoSolare>
-      <ClasseMisuratore>G6</ClasseMisuratore>
-      <TipoPDR>SERV-PUB</TipoPDR>
-      <AmbitoTariffario>TUTTI</AmbitoTariffario>
-      <Importi>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
-          <Quota>0,007148</Quota>
-          <Scaglione>1</Scaglione>
-          <Quantita>881721371,160116</Quantita>
-          <Imponibile>22,63</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>CE</ComponenteTariffaria>
-          <Quota>0,000419</Quota>
-          <Scaglione>7</Scaglione>
-          <Quantita>922376800,916458</Quantita>
-          <Imponibile>96,23</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>TAU1_COT</ComponenteTariffaria>
-          <Quota>0,001598</Quota>
-          <Scaglione>8</Scaglione>
-          <Quantita>416261005,976299</Quantita>
-          <Imponibile>49,27</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>TAU1_MIS</ComponenteTariffaria>
-          <Quota>0,006774</Quota>
-          <Scaglione>2</Scaglione>
-          <Quantita>315471770,095247</Quantita>
-          <Imponibile>24,06</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>UG3_UI</ComponenteTariffaria>
-          <Quota>0,006341</Quota>
-          <Scaglione>6</Scaglione>
-          <Quantita>353997153,793006</Quantita>
-          <Imponibile>53,0</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,005146</Quota>
-          <Scaglione>1</Scaglione>
-          <Quantita>943019091,915354</Quantita>
-          <Imponibile>47,93</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>TAU3_DIS</ComponenteTariffaria>
-          <Quota>0,000464</Quota>
-          <Quantita>547833792,923669</Quantita>
-          <Imponibile>86,96</Imponibile>
-        </Importo>
-      </Importi>
-    </DettaglioPDR>
-    <DettaglioPDR>
-      <CodicePDR>2905198772</CodicePDR>
-      <REMIPool>3431464701</REMIPool>
-      <CodiceISTAT>237037</CodiceISTAT>
-      <Comune>Settimo Ivonne</Comune>
-      <CoefficienteC>0,978705</CoefficienteC>
-      <Correttore>NO</Correttore>
-      <ProgrAnnoSolare>677516,715</ProgrAnnoSolare>
-      <ClasseMisuratore>G1600</ClasseMisuratore>
-      <TipoPDR>USI-DIV</TipoPDR>
-      <AmbitoTariffario>CENTR</AmbitoTariffario>
-      <Importi>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
-          <Quota>0,005101</Quota>
-          <Scaglione>9</Scaglione>
-          <Quantita>483285048,470924</Quantita>
-          <Imponibile>17,95</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
-          <Quota>0,003953</Quota>
-          <Quantita>776571028,182327</Quantita>
-          <Imponibile>7,96</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,009720</Quota>
-          <Quantita>169719275,220822</Quantita>
-          <Imponibile>97,65</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
-          <Quota>0,004410</Quota>
-          <Quantita>471870913,918271</Quantita>
-          <Imponibile>76,52</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>DELTAT1COT</ComponenteTariffaria>
-          <Quota>0,001109</Quota>
-          <Scaglione>7</Scaglione>
-          <Quantita>127977414,557394</Quantita>
-          <Imponibile>34,37</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>BONUS_SOC</ComponenteTariffaria>
-          <RegimeCompensazioneBonus>GR1Ci</RegimeCompensazioneBonus>
-          <CodiceBonusSII>7954238095</CodiceBonusSII>
-          <Quota>0,001501</Quota>
-          <Scaglione>6</Scaglione>
-          <Quantita>849949670,131021</Quantita>
-          <Imponibile>0,24</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>ST</ComponenteTariffaria>
-          <Quota>0,000789</Quota>
-          <Scaglione>9</Scaglione>
-          <Quantita>842778199,346531</Quantita>
-          <Imponibile>50,04</Imponibile>
-        </Importo>
-      </Importi>
-    </DettaglioPDR>
-    <DettaglioPDR>
-      <CodicePDR>5295970893</CodicePDR>
-      <REMIPool>5180389471</REMIPool>
-      <CodiceISTAT>306278</CodiceISTAT>
-      <Comune>Serr laziale</Comune>
-      <CoefficienteC>0,968934</CoefficienteC>
+      <CodicePDR>6396826410</CodicePDR>
+      <REMIPool>2817004111</REMIPool>
+      <CodiceISTAT>294498</CodiceISTAT>
+      <Comune>Borgo Rosaria umbro</Comune>
+      <CoefficienteC>0,997591</CoefficienteC>
       <Correttore>SI</Correttore>
-      <ProgrAnnoSolare>809190,428</ProgrAnnoSolare>
-      <ClasseMisuratore>G10</ClasseMisuratore>
+      <ProgrAnnoSolare>519071,384</ProgrAnnoSolare>
+      <ClasseMisuratore>G160</ClasseMisuratore>
       <TipoPDR>SERV-PUB</TipoPDR>
       <AmbitoTariffario>SARD</AmbitoTariffario>
       <Importi>
@@ -532,243 +317,1091 @@
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>QF_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,002939</Quota>
-          <Scaglione>5</Scaglione>
-          <Quantita>590626683,396124</Quantita>
-          <Imponibile>18,34</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>UG3_FT</ComponenteTariffaria>
-          <Quota>0,001720</Quota>
-          <Scaglione>4</Scaglione>
-          <Quantita>528128888,029396</Quantita>
-          <Imponibile>69,98</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>QF_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,005774</Quota>
-          <Quantita>827736323,130692</Quantita>
-          <Imponibile>31,15</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>COMP_ALPHA</ComponenteTariffaria>
-          <Quota>0,000324</Quota>
-          <Quantita>370575601,093077</Quantita>
-          <Imponibile>14,31</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
-          <Quota>0,001473</Quota>
-          <Scaglione>6</Scaglione>
-          <Quantita>628117392,823706</Quantita>
-          <Imponibile>21,34</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>BONUS_SOC</ComponenteTariffaria>
-          <RegimeCompensazioneBonus>GR1Di</RegimeCompensazioneBonus>
-          <CodiceBonusSII>8924745419</CodiceBonusSII>
-          <Quota>0,007085</Quota>
-          <Quantita>753120672,167111</Quantita>
-          <Imponibile>61,66</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>TAU1_COT</ComponenteTariffaria>
-          <Quota>0,005271</Quota>
-          <Quantita>654792830,392597</Quantita>
-          <Imponibile>81,42</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>COMP_ALPHA</ComponenteTariffaria>
-          <Quota>0,008639</Quota>
-          <Scaglione>2</Scaglione>
-          <Quantita>936317425,102464</Quantita>
-          <Imponibile>90,15</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>DELTAT1COT</ComponenteTariffaria>
-          <Quota>0,007802</Quota>
-          <Scaglione>3</Scaglione>
-          <Quantita>947150067,427264</Quantita>
-          <Imponibile>88,14</Imponibile>
-        </Importo>
-      </Importi>
-    </DettaglioPDR>
-    <DettaglioPDR>
-      <CodicePDR>2111170926</CodicePDR>
-      <REMIPool>4127213912</REMIPool>
-      <CodiceISTAT>228670</CodiceISTAT>
-      <Comune>Luna lido</Comune>
-      <CoefficienteC>0,997524</CoefficienteC>
-      <Correttore>NO</Correttore>
-      <ProgrAnnoSolare>957997,693</ProgrAnnoSolare>
-      <ClasseMisuratore>G6</ClasseMisuratore>
-      <TipoPDR>CLI-DOM</TipoPDR>
-      <AmbitoTariffario>N-ORI</AmbitoTariffario>
-      <Importi>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>TAU1_COT</ComponenteTariffaria>
-          <Quota>0,003416</Quota>
-          <Quantita>499952256,540692</Quantita>
-          <Imponibile>20,5</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>VR</ComponenteTariffaria>
-          <Quota>0,005874</Quota>
-          <Scaglione>9</Scaglione>
-          <Quantita>595039187,068292</Quantita>
-          <Imponibile>22,24</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,002776</Quota>
-          <Quantita>876840613,936124</Quantita>
-          <Imponibile>25,9</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>TAU1_MIS</ComponenteTariffaria>
-          <Quota>0,009810</Quota>
-          <Scaglione>2</Scaglione>
-          <Quantita>404525830,488207</Quantita>
-          <Imponibile>35,23</Imponibile>
+          <ComponenteTariffaria>UG1</ComponenteTariffaria>
+          <Quota>0,007301</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>172269238,709316</Quantita>
+          <Imponibile>11,29</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>S</TipoMovimento>
           <ComponenteTariffaria>UG1</ComponenteTariffaria>
-          <Quota>0,000282</Quota>
-          <Scaglione>3</Scaglione>
-          <Quantita>289678974,893294</Quantita>
-          <Imponibile>19,62</Imponibile>
+          <Quota>0,000665</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>898630916,062413</Quantita>
+          <Imponibile>12,17</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>BONUS_SOC</ComponenteTariffaria>
+          <RegimeCompensazioneBonus>GAC2Fd</RegimeCompensazioneBonus>
+          <CodiceBonusSII>5021640087</CodiceBonusSII>
+          <Quota>0,004491</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>419998748,655806</Quantita>
+          <Imponibile>12,71</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>AGGBO</ComponenteTariffaria>
+          <Quota>0,003141</Quota>
+          <Quantita>144288286,338161</Quantita>
+          <Imponibile>99,57</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>S</TipoMovimento>
           <ComponenteTariffaria>GS</ComponenteTariffaria>
-          <Quota>0,004155</Quota>
-          <Scaglione>6</Scaglione>
-          <Quantita>733318054,434041</Quantita>
-          <Imponibile>68,45</Imponibile>
+          <Quota>0,007608</Quota>
+          <Scaglione>7</Scaglione>
+          <Quantita>140221027,996895</Quantita>
+          <Imponibile>17,84</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>ST</ComponenteTariffaria>
-          <Quota>0,009741</Quota>
-          <Quantita>552625116,946052</Quantita>
-          <Imponibile>45,5</Imponibile>
+          <ComponenteTariffaria>UG2C_F</ComponenteTariffaria>
+          <Quota>0,006040</Quota>
+          <Quantita>396598739,656257</Quantita>
+          <Imponibile>52,08</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG3_FT</ComponenteTariffaria>
+          <Quota>0,009661</Quota>
+          <Quantita>303022528,667869</Quantita>
+          <Imponibile>89,01</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2K_V</ComponenteTariffaria>
+          <Quota>0,008849</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>417867296,908181</Quantita>
+          <Imponibile>59,62</Imponibile>
         </Importo>
       </Importi>
     </DettaglioPDR>
     <DettaglioPDR>
-      <CodicePDR>3903556379</CodicePDR>
-      <REMIPool>1806215869</REMIPool>
-      <CodiceISTAT>207416</CodiceISTAT>
-      <Comune>San Amedeo</Comune>
-      <CoefficienteC>1,000262</CoefficienteC>
+      <CodicePDR>9171225889</CodicePDR>
+      <REMIPool>3850841369</REMIPool>
+      <CodiceISTAT>383233</CodiceISTAT>
+      <Comune>Costantin laziale</Comune>
+      <CoefficienteC>0,975566</CoefficienteC>
       <Correttore>NO</Correttore>
-      <ProgrAnnoSolare>240272,436</ProgrAnnoSolare>
-      <ClasseMisuratore>G4000</ClasseMisuratore>
-      <TipoPDR>USI-DIV</TipoPDR>
+      <ProgrAnnoSolare>339631,887</ProgrAnnoSolare>
+      <ClasseMisuratore>G400</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
       <AmbitoTariffario>N-OCC</AmbitoTariffario>
       <Importi>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2K_F</ComponenteTariffaria>
+          <Quota>0,004347</Quota>
+          <Quantita>891044704,574197</Quantita>
+          <Imponibile>29,62</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
           <ComponenteTariffaria>COMP_ALPHA</ComponenteTariffaria>
-          <Quota>0,004965</Quota>
-          <Quantita>268896959,941548</Quantita>
-          <Imponibile>92,41</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>CAN_COM</ComponenteTariffaria>
-          <Quota>0,000960</Quota>
-          <Scaglione>7</Scaglione>
-          <Quantita>623791301,977191</Quantita>
-          <Imponibile>28,9</Imponibile>
+          <Quota>0,008824</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>655938998,403015</Quantita>
+          <Imponibile>98,87</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
-          <Quota>0,004451</Quota>
+          <ComponenteTariffaria>EX_CCI</ComponenteTariffaria>
+          <Quota>0,003834</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>994157253,576294</Quantita>
+          <Imponibile>36,1</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>AGGBO</ComponenteTariffaria>
+          <Quota>0,007153</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>666695101,821283</Quantita>
+          <Imponibile>14,63</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>AGGBO</ComponenteTariffaria>
+          <Quota>0,002225</Quota>
+          <Quantita>269039760,506148</Quantita>
+          <Imponibile>96,93</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG3_INT</ComponenteTariffaria>
+          <Quota>0,009574</Quota>
+          <Quantita>272001378,616962</Quantita>
+          <Imponibile>95,85</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_F</ComponenteTariffaria>
+          <Quota>0,006423</Quota>
+          <Quantita>523176779,907689</Quantita>
+          <Imponibile>1,84</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>ST</ComponenteTariffaria>
+          <Quota>0,004127</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>530254148,038571</Quantita>
+          <Imponibile>42,97</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>7829132358</CodicePDR>
+      <REMIPool>3451476639</REMIPool>
+      <CodiceISTAT>786057</CodiceISTAT>
+      <Comune>Settimo Sirio a mare</Comune>
+      <CoefficienteC>0,999079</CoefficienteC>
+      <Correttore>SI</Correttore>
+      <ProgrAnnoSolare>420414,634</ProgrAnnoSolare>
+      <ClasseMisuratore>G25</ClasseMisuratore>
+      <TipoPDR>USI-DIV</TipoPDR>
+      <AmbitoTariffario>S-ORI</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,008079</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>549507332,366281</Quantita>
+          <Imponibile>90,74</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU1_DIS</ComponenteTariffaria>
+          <Quota>0,008218</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>329416253,425328</Quantita>
+          <Imponibile>11,07</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>RS</ComponenteTariffaria>
+          <Quota>0,004219</Quota>
+          <Quantita>254467566,379423</Quantita>
+          <Imponibile>77,02</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
+          <Quota>0,004617</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>790602125,552314</Quantita>
+          <Imponibile>90,73</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2K_V</ComponenteTariffaria>
+          <Quota>0,001557</Quota>
+          <Scaglione>5</Scaglione>
+          <Quantita>344455189,588408</Quantita>
+          <Imponibile>98,27</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU1_DIS</ComponenteTariffaria>
+          <Quota>0,007731</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>725022880,127256</Quantita>
+          <Imponibile>56,6</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG3_INT</ComponenteTariffaria>
+          <Quota>0,004588</Quota>
+          <Quantita>241457562,076433</Quantita>
+          <Imponibile>48,06</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>RS</ComponenteTariffaria>
+          <Quota>0,000098</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>727614022,613834</Quantita>
+          <Imponibile>6,58</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>2226061479</CodicePDR>
+      <REMIPool>6129731897</REMIPool>
+      <CodiceISTAT>655005</CodiceISTAT>
+      <Comune>Lidia sardo</Comune>
+      <CoefficienteC>1,048842</CoefficienteC>
+      <Correttore>SI</Correttore>
+      <ProgrAnnoSolare>452803,604</ProgrAnnoSolare>
+      <ClasseMisuratore>G650</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
+      <AmbitoTariffario>S-OCC</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,002457</Quota>
           <Scaglione>9</Scaglione>
-          <Quantita>346917965,423521</Quantita>
-          <Imponibile>48,35</Imponibile>
-        </Importo>
-        <Importo>
-          <DataInizio>2023-08-01</DataInizio>
-          <DataFine>2023-08-31</DataFine>
-          <TipoMovimento>F</TipoMovimento>
-          <ComponenteTariffaria>VR</ComponenteTariffaria>
-          <Quota>0,009562</Quota>
-          <Scaglione>7</Scaglione>
-          <Quantita>263892761,964465</Quantita>
-          <Imponibile>57,01</Imponibile>
+          <Quantita>895768492,708233</Quantita>
+          <Imponibile>69,54</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>S</TipoMovimento>
-          <ComponenteTariffaria>CE</ComponenteTariffaria>
-          <Quota>0,005356</Quota>
-          <Scaglione>7</Scaglione>
-          <Quantita>143337471,719053</Quantita>
-          <Imponibile>72,14</Imponibile>
+          <ComponenteTariffaria>CAN_COM</ComponenteTariffaria>
+          <Quota>0,000581</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>637173289,662436</Quantita>
+          <Imponibile>73,99</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>AGGBO</ComponenteTariffaria>
+          <Quota>0,006238</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>496097176,298652</Quantita>
+          <Imponibile>4,65</Imponibile>
         </Importo>
         <Importo>
           <DataInizio>2023-08-01</DataInizio>
           <DataFine>2023-08-31</DataFine>
           <TipoMovimento>S</TipoMovimento>
           <ComponenteTariffaria>UG3_FT</ComponenteTariffaria>
-          <Quota>0,004629</Quota>
+          <Quota>0,003690</Quota>
+          <Quantita>977337671,053416</Quantita>
+          <Imponibile>40,76</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>BONUS_SOC</ComponenteTariffaria>
+          <RegimeCompensazioneBonus>GACR1Fd</RegimeCompensazioneBonus>
+          <CodiceBonusSII>9295545349</CodiceBonusSII>
+          <Quota>0,006143</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>333760103,868715</Quantita>
+          <Imponibile>81,16</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU3_DIS</ComponenteTariffaria>
+          <Quota>0,000178</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>981460369,177844</Quantita>
+          <Imponibile>69,68</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>CE</ComponenteTariffaria>
+          <Quota>0,003046</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>655411458,996783</Quantita>
+          <Imponibile>45,66</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>4632391737</CodicePDR>
+      <REMIPool>6295931623</REMIPool>
+      <CodiceISTAT>139835</CodiceISTAT>
+      <Comune>Quarto Nunzia</Comune>
+      <CoefficienteC>0,970251</CoefficienteC>
+      <Correttore>SI</Correttore>
+      <ProgrAnnoSolare>255875,435</ProgrAnnoSolare>
+      <ClasseMisuratore>AO_LOE_G40</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
+      <AmbitoTariffario>TUTTI</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
+          <Quota>0,009404</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>879107944,413137</Quantita>
+          <Imponibile>96,59</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,002418</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>636616558,170497</Quantita>
+          <Imponibile>70,18</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>COMP_TAR_RE</ComponenteTariffaria>
+          <Quota>0,005789</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>419252976,700939</Quantita>
+          <Imponibile>27,89</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2K_V</ComponenteTariffaria>
+          <Quota>0,005144</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>553955998,966043</Quantita>
+          <Imponibile>90,24</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU1_DIS</ComponenteTariffaria>
+          <Quota>0,002260</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>398603716,496255</Quantita>
+          <Imponibile>74,31</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>GS</ComponenteTariffaria>
+          <Quota>0,001556</Quota>
+          <Quantita>603863845,465072</Quantita>
+          <Imponibile>95,26</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>3073555146</CodicePDR>
+      <REMIPool>8327135716</REMIPool>
+      <CodiceISTAT>746702</CodiceISTAT>
+      <Comune>San Rufo</Comune>
+      <CoefficienteC>1,046342</CoefficienteC>
+      <Correttore>SI</Correttore>
+      <ProgrAnnoSolare>634132,763</ProgrAnnoSolare>
+      <ClasseMisuratore>G40</ClasseMisuratore>
+      <TipoPDR>USI-DIV</TipoPDR>
+      <AmbitoTariffario>N-ORI</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG3_UI</ComponenteTariffaria>
+          <Quota>0,004635</Quota>
+          <Quantita>905915413,504622</Quantita>
+          <Imponibile>26,23</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>TAU1_DIS</ComponenteTariffaria>
+          <Quota>0,006793</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>275784006,380458</Quantita>
+          <Imponibile>96,11</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>TAU1_DIS</ComponenteTariffaria>
+          <Quota>0,007931</Quota>
+          <Quantita>755623816,755784</Quantita>
+          <Imponibile>30,4</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>DELTAT1COT</ComponenteTariffaria>
+          <Quota>0,004186</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>930252762,625438</Quantita>
+          <Imponibile>73,97</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,002440</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>475645651,461544</Quantita>
+          <Imponibile>12,59</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU3_DIS</ComponenteTariffaria>
+          <Quota>0,002285</Quota>
+          <Quantita>985552864,467853</Quantita>
+          <Imponibile>9,78</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>QF_ANTE_2009</ComponenteTariffaria>
+          <Quota>0,004371</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>686316036,440801</Quantita>
+          <Imponibile>15,66</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>6410844206</CodicePDR>
+      <REMIPool>6383469913</REMIPool>
+      <CodiceISTAT>693257</CodiceISTAT>
+      <Comune>Lauro del friuli</Comune>
+      <CoefficienteC>1,046562</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>104576,523</ProgrAnnoSolare>
+      <ClasseMisuratore>G400</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
+      <AmbitoTariffario>SARD</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>ST</ComponenteTariffaria>
+          <Quota>0,007218</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>548669584,854603</Quantita>
+          <Imponibile>27,05</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>COMP_BETA</ComponenteTariffaria>
+          <Quota>0,009617</Quota>
+          <Scaglione>7</Scaglione>
+          <Quantita>271162090,556515</Quantita>
+          <Imponibile>53,55</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>CE</ComponenteTariffaria>
+          <Quota>0,007651</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>875103608,466735</Quantita>
+          <Imponibile>95,08</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>QF_ANTE_2009</ComponenteTariffaria>
+          <Quota>0,004637</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>398031279,108507</Quantita>
+          <Imponibile>71,93</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>CE</ComponenteTariffaria>
+          <Quota>0,002968</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>990488546,143738</Quantita>
+          <Imponibile>53,45</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG3_FT</ComponenteTariffaria>
+          <Quota>0,009284</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>988947555,191658</Quantita>
+          <Imponibile>87,53</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>ST</ComponenteTariffaria>
+          <Quota>0,003602</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>856818589,189655</Quantita>
+          <Imponibile>56,85</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>9882241565</CodicePDR>
+      <REMIPool>2019808884</REMIPool>
+      <CodiceISTAT>623864</CodiceISTAT>
+      <Comune>Sesto Odino salentino</Comune>
+      <CoefficienteC>0,961721</CoefficienteC>
+      <Correttore>SI</Correttore>
+      <ProgrAnnoSolare>165463,252</ProgrAnnoSolare>
+      <ClasseMisuratore>G4</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
+      <AmbitoTariffario>S-OCC</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG3_UI</ComponenteTariffaria>
+          <Quota>0,000147</Quota>
+          <Quantita>782199897,894195</Quantita>
+          <Imponibile>76,22</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>BONUS_SOC</ComponenteTariffaria>
+          <RegimeCompensazioneBonus>GR1A/Bd</RegimeCompensazioneBonus>
+          <CodiceBonusSII>6892302792</CodiceBonusSII>
+          <Quota>0,006089</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>184085772,550667</Quantita>
+          <Imponibile>96,17</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG3_UI</ComponenteTariffaria>
+          <Quota>0,007638</Quota>
+          <Scaglione>5</Scaglione>
+          <Quantita>271310696,311762</Quantita>
+          <Imponibile>3,16</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>GS</ComponenteTariffaria>
+          <Quota>0,007055</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>801469025,355159</Quantita>
+          <Imponibile>95,49</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>TAU3_DIS</ComponenteTariffaria>
+          <Quota>0,004308</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>403577950,518637</Quantita>
+          <Imponibile>75,91</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>3473261904</CodicePDR>
+      <REMIPool>9519848593</REMIPool>
+      <CodiceISTAT>400196</CodiceISTAT>
+      <Comune>Settimo Eufemia calabro</Comune>
+      <CoefficienteC>0,990968</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>784792,552</ProgrAnnoSolare>
+      <ClasseMisuratore>G16</ClasseMisuratore>
+      <TipoPDR>CLI-DOM</TipoPDR>
+      <AmbitoTariffario>N-OCC</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,000907</Quota>
+          <Quantita>125772391,760205</Quantita>
+          <Imponibile>65,09</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>AGGBO</ComponenteTariffaria>
+          <Quota>0,004169</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>685150808,320402</Quantita>
+          <Imponibile>29,4</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,006962</Quota>
+          <Scaglione>5</Scaglione>
+          <Quantita>283481576,504659</Quantita>
+          <Imponibile>67,81</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2K_F</ComponenteTariffaria>
+          <Quota>0,005624</Quota>
           <Scaglione>9</Scaglione>
-          <Quantita>264207305,538881</Quantita>
-          <Imponibile>22,14</Imponibile>
+          <Quantita>283360960,613556</Quantita>
+          <Imponibile>28,29</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,000081</Quota>
+          <Quantita>791041105,801183</Quantita>
+          <Imponibile>6,36</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG1</ComponenteTariffaria>
+          <Quota>0,000232</Quota>
+          <Scaglione>4</Scaglione>
+          <Quantita>991417783,001423</Quantita>
+          <Imponibile>89,81</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>GS</ComponenteTariffaria>
+          <Quota>0,000776</Quota>
+          <Quantita>398566813,427998</Quantita>
+          <Imponibile>27,25</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>COMP_ALPHA</ComponenteTariffaria>
+          <Quota>0,005353</Quota>
+          <Scaglione>9</Scaglione>
+          <Quantita>729693267,870804</Quantita>
+          <Imponibile>58,33</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_F</ComponenteTariffaria>
+          <Quota>0,009070</Quota>
+          <Quantita>146590985,046609</Quantita>
+          <Imponibile>60,03</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>9049197684</CodicePDR>
+      <REMIPool>8681628584</REMIPool>
+      <CodiceISTAT>742162</CodiceISTAT>
+      <Comune>Fabiano lido</Comune>
+      <CoefficienteC>1,031454</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>945780,493</ProgrAnnoSolare>
+      <ClasseMisuratore>G65</ClasseMisuratore>
+      <TipoPDR>USI-DIV</TipoPDR>
+      <AmbitoTariffario>MERID</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2C_F</ComponenteTariffaria>
+          <Quota>0,006839</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>279330226,311159</Quantita>
+          <Imponibile>2,33</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU3_DIS</ComponenteTariffaria>
+          <Quota>0,003796</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>178125549,428096</Quantita>
+          <Imponibile>46,19</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>EX_CCI</ComponenteTariffaria>
+          <Quota>0,009418</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>846943250,514034</Quantita>
+          <Imponibile>8,16</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>VR</ComponenteTariffaria>
+          <Quota>0,008149</Quota>
+          <Quantita>935461312,519925</Quantita>
+          <Imponibile>95,58</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>VR</ComponenteTariffaria>
+          <Quota>0,001792</Quota>
+          <Scaglione>5</Scaglione>
+          <Quantita>524418305,668836</Quantita>
+          <Imponibile>29,76</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>DELTAT1COT</ComponenteTariffaria>
+          <Quota>0,002393</Quota>
+          <Scaglione>9</Scaglione>
+          <Quantita>271201481,591631</Quantita>
+          <Imponibile>32,56</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,008032</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>921198534,701164</Quantita>
+          <Imponibile>44,68</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>DELTAT1COT</ComponenteTariffaria>
+          <Quota>0,006252</Quota>
+          <Quantita>240854880,773074</Quantita>
+          <Imponibile>9,6</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>ST</ComponenteTariffaria>
+          <Quota>0,008756</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>347600670,265296</Quantita>
+          <Imponibile>38,2</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>4525669716</CodicePDR>
+      <REMIPool>5279554807</REMIPool>
+      <CodiceISTAT>556192</CodiceISTAT>
+      <Comune>Valentini veneto</Comune>
+      <CoefficienteC>0,953927</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>662644,387</ProgrAnnoSolare>
+      <ClasseMisuratore>G4000</ClasseMisuratore>
+      <TipoPDR>CON-DOM</TipoPDR>
+      <AmbitoTariffario>SARD</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_F</ComponenteTariffaria>
+          <Quota>0,000649</Quota>
+          <Scaglione>8</Scaglione>
+          <Quantita>406511817,595071</Quantita>
+          <Imponibile>14,6</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>RS</ComponenteTariffaria>
+          <Quota>0,008323</Quota>
+          <Scaglione>5</Scaglione>
+          <Quantita>376021175,932196</Quantita>
+          <Imponibile>62,49</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU1_DIS</ComponenteTariffaria>
+          <Quota>0,000135</Quota>
+          <Quantita>938227580,778196</Quantita>
+          <Imponibile>3,78</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>RS</ComponenteTariffaria>
+          <Quota>0,002131</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>393378799,180422</Quantita>
+          <Imponibile>92,02</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
+          <Quota>0,009341</Quota>
+          <Scaglione>9</Scaglione>
+          <Quantita>938063157,475905</Quantita>
+          <Imponibile>38,87</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>TAU1_MIS</ComponenteTariffaria>
+          <Quota>0,007291</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>267247425,728077</Quantita>
+          <Imponibile>49,32</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>CE</ComponenteTariffaria>
+          <Quota>0,009873</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>235880070,133234</Quantita>
+          <Imponibile>43,23</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG3_FT</ComponenteTariffaria>
+          <Quota>0,002827</Quota>
+          <Scaglione>7</Scaglione>
+          <Quantita>344932881,011162</Quantita>
+          <Imponibile>20,45</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>TAU1_COT</ComponenteTariffaria>
+          <Quota>0,006133</Quota>
+          <Scaglione>7</Scaglione>
+          <Quantita>176711699,085896</Quantita>
+          <Imponibile>68,12</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>8490990784</CodicePDR>
+      <REMIPool>1665220668</REMIPool>
+      <CodiceISTAT>369254</CodiceISTAT>
+      <Comune>San Giuliano lido</Comune>
+      <CoefficienteC>1,032074</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>624585,697</ProgrAnnoSolare>
+      <ClasseMisuratore>AO_GT_G40</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
+      <AmbitoTariffario>S-ORI</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG3_UI</ComponenteTariffaria>
+          <Quota>0,009131</Quota>
+          <Scaglione>9</Scaglione>
+          <Quantita>220746751,899971</Quantita>
+          <Imponibile>14,04</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>VR</ComponenteTariffaria>
+          <Quota>0,001944</Quota>
+          <Scaglione>1</Scaglione>
+          <Quantita>310800519,148024</Quantita>
+          <Imponibile>13,12</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>EX_CCI</ComponenteTariffaria>
+          <Quota>0,008630</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>706473389,386048</Quantita>
+          <Imponibile>57,82</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG1</ComponenteTariffaria>
+          <Quota>0,009175</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>607968622,000818</Quantita>
+          <Imponibile>75,08</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>CE</ComponenteTariffaria>
+          <Quota>0,005529</Quota>
+          <Quantita>293042593,481579</Quantita>
+          <Imponibile>39,41</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>QV_ANTE_2009</ComponenteTariffaria>
+          <Quota>0,000826</Quota>
+          <Scaglione>3</Scaglione>
+          <Quantita>178560369,541713</Quantita>
+          <Imponibile>42,22</Imponibile>
+        </Importo>
+      </Importi>
+    </DettaglioPDR>
+    <DettaglioPDR>
+      <CodicePDR>2463403015</CodicePDR>
+      <REMIPool>4150545536</REMIPool>
+      <CodiceISTAT>188349</CodiceISTAT>
+      <Comune>Quarto Quarto nell'emilia</Comune>
+      <CoefficienteC>0,95651</CoefficienteC>
+      <Correttore>NO</Correttore>
+      <ProgrAnnoSolare>452310,485</ProgrAnnoSolare>
+      <ClasseMisuratore>G10</ClasseMisuratore>
+      <TipoPDR>SERV-PUB</TipoPDR>
+      <AmbitoTariffario>N-ORI</AmbitoTariffario>
+      <Importi>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2C_V</ComponenteTariffaria>
+          <Quota>0,004823</Quota>
+          <Quantita>766984347,468447</Quantita>
+          <Imponibile>67,92</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>F</TipoMovimento>
+          <ComponenteTariffaria>UG3_INT</ComponenteTariffaria>
+          <Quota>0,002675</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>840221151,927152</Quantita>
+          <Imponibile>52,85</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG3_UI</ComponenteTariffaria>
+          <Quota>0,004630</Quota>
+          <Scaglione>2</Scaglione>
+          <Quantita>572598539,741969</Quantita>
+          <Imponibile>83,37</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>UG2K_V</ComponenteTariffaria>
+          <Quota>0,002901</Quota>
+          <Scaglione>5</Scaglione>
+          <Quantita>863732718,849825</Quantita>
+          <Imponibile>60,06</Imponibile>
+        </Importo>
+        <Importo>
+          <DataInizio>2023-08-01</DataInizio>
+          <DataFine>2023-08-31</DataFine>
+          <TipoMovimento>S</TipoMovimento>
+          <ComponenteTariffaria>EX_CCI</ComponenteTariffaria>
+          <Quota>0,002329</Quota>
+          <Scaglione>6</Scaglione>
+          <Quantita>150201858,135853</Quantita>
+          <Imponibile>3,78</Imponibile>
         </Importo>
       </Importi>
     </DettaglioPDR>

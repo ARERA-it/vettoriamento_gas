@@ -125,7 +125,7 @@ FlussoFattureTrasportoGas:
       CAP: <%= Faker::Number.number(digits: 5) %>
       Localita: <%= Faker::Address.city %>
       Provincia: '<%= Faker::Address.state_abbr %>'
-      Nazione: <%= Faker::Address.country_code_long %>
+      Nazione: <%= Faker::Address.country_code %>
     Email: <%= Faker::Internet.email %>
     Telefono: <%= Faker::PhoneNumber.phone_number %>
     Pagamento:
@@ -144,14 +144,14 @@ FlussoFattureTrasportoGas:
       CAP: <%= Faker::Number.number(digits: 5) %>
       Localita: <%= Faker::Address.city %>
       Provincia: '<%= Faker::Address.state_abbr %>'
-      Nazione: <%= Faker::Address.country_code_long %>
+      Nazione: <%= Faker::Address.country_code %>
     IndirizzoSpedizione:
       Intestazione: <%= recipient %>
       Indirizzo: <%= Faker::Address.street_address %>
       CAP: <%= Faker::Number.number(digits: 5) %>
       Localita: <%= Faker::Address.city %>
       Provincia: '<%= Faker::Address.state_abbr %>'
-      Nazione: <%= Faker::Address.country_code_long %>
+      Nazione: <%= Faker::Address.country_code %>
 
   Fattura:
     Numero: <%= Faker::Number.number(digits: 6) %>
