@@ -465,6 +465,7 @@
       <xs:element name="Scaglione" type="TScaglione" minOccurs="0"/>
       <xs:element name="Quantita" type="TNoveVSei"/>
       <xs:element name="Imponibile" type="TNoveVSei"/>
+      <xs:element name="MotivazioneRettifica" type="TTesto256" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
 
